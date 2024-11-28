@@ -1,17 +1,16 @@
-# 🐠 MoLA Implementation
-This repo shows the implementation of the MoLA parameter-efficient tuning in the paper **[Higher Layers Need More LoRA Experts](http://arxiv.org/abs/2402.08562)**.
+# HR-MoLA Implementation
 
 ## Install
 The installation is for Linux
-1. Clone this repository and navigate to MoLA folder
+1. Clone this repository and navigate to HR-MoLA folder
    ```bash
-   git clone https://github.com/GCYZSL/MoLA.git
-   cd MoLA
+   git clone https://github.com/Godz-z/HR-MoLA.git
+   cd HR-MoLA
    ```
 2. Install dependencies
    ```bash
-   conda create -n mola python=3.10 -y
-   conda activate mola
+   conda create -n hrmola python=3.10 -y
+   conda activatehr hrmola
    pip install -r requirements.txt
    ```
 
@@ -179,5 +178,5 @@ The details of the hyperparameters can be found in Training of Quick Start.
 Will be updated.
 
 ## Acknowlegements
-The code is developed based on Huggingface, mm-cot, and alpaca-lora projects.
+The code is developed based on Huggingface, mm-cot, MoLA and alpaca-lora projects.
 
